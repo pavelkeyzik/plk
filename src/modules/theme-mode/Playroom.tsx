@@ -9,6 +9,8 @@ const playroomInfo: PlayroomInfoProps = {
   description:
     "Allows you to detect prefered theme and change it as you needed",
   codeURL: getCodeURL("theme-mode"),
+  articleURL:
+    "https://pavelkeyzik.com/blog/how-to-implement-theme-switcher-in-javascript",
 };
 
 const store = createThemeStore({

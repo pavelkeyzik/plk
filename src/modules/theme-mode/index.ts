@@ -91,9 +91,9 @@ function createThemeStore(options: Options = {}) {
   });
 
   function changeThemeMode(mode: Mode = "dark") {
-    state.mode = mode;
     const newTheme = getThemeByMode(mode);
 
+    state.mode = mode;
     state.theme = newTheme;
 
     if (state.mode === "system") {
