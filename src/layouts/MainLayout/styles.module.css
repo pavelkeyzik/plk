@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+
+.navigation {
+  display: grid;
+  padding: 24px;
+  gap: 16px;
+}
