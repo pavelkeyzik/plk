@@ -7,8 +7,18 @@ function MainLayout() {
     <div className={styles.grid}>
       <aside>
         <nav className={styles.navigation}>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/theme-mode">Theme Mode</NavLink>
+          <fieldset className={styles.navigationSection}>
+            <legend>General</legend>
+            <NavLink to="/">Home</NavLink>
+          </fieldset>
+          <fieldset className={styles.navigationSection}>
+            <legend>JavaScript</legend>
+            <NavLink to="/theme-mode">Theme Mode</NavLink>
+          </fieldset>
+          <fieldset className={styles.navigationSection}>
+            <legend>CSS</legend>
+            <NavLink to="/responsive-pills">Responsive Pills</NavLink>
+          </fieldset>
         </nav>
       </aside>
       <main>

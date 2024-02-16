@@ -1,0 +1,76 @@
+/* Actual logic */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  overflow: hidden;
+  min-width: 48px;
+  height: 48px;
+}
+
+.pill-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fill-container {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.spacer {
+  position: relative;
+  content: "";
+  display: flex;
+  width: 0px;
+  height: 100%;
+}
+
+.user-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.pill {
+  white-space: nowrap;
+  flex-grow: 1;
+}
+
+/* Make design pretty */
+
+.resizer {
+  resize: horizontal;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  padding: 24px;
+}
+
+.pill {
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 99px;
+  align-items: center;
+  height: 48px;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: black;
+  border-radius: 48px;
+}

@@ -8,3 +8,8 @@
   padding: 24px;
   gap: 16px;
 }
+
+.navigationSection {
+  display: grid;
+  gap: 8px;
+}
